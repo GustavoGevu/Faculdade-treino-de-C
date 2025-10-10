@@ -4,8 +4,8 @@
 
 int main(void)
 {
-    printf("meu primeiro codigo");
-    printf("Hello, World");
+    printf("meu primeiro codigo \n");
+    printf("Hello, World \n");
 
     return 0;
 }

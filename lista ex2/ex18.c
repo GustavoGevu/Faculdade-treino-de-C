@@ -45,9 +45,6 @@ int main(){
     {
         printf("Com as medidas de a, b e c, um triangulo não se forma\n");
     }
-    
-    
-
 
     return 0;
 }

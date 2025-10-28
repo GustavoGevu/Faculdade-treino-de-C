@@ -5,17 +5,26 @@
 
 int main () {
 
-    int a, b= 1;
+    char a [100];
+    int i,r = 0;
 
-    printf("Digite um numero: \n");
-    scanf("%d", &a);
+    printf("Digite um numero positivo inteiro: \n");
+    scanf(" %99s", &a);
 
-    while (b == 1)
-    {
+    for(i = 0; a[i];i++){
+
+        if(a[i]>='0' && a[i]<='9'){
+            r = r + (a[i]- '0');
+        }
         
+        else
+        {
+            printf("Erro, coloque um valor valido\n");
+            return 1;
+        }
     }
     
-
+    printf("%d",r);
 
     return 0;
 }
